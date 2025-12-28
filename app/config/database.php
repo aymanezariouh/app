@@ -1,6 +1,4 @@
 <?php
-declare(strict_types=1);
-
 class DB
 {
     private static ?DB $instance = null;

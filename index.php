@@ -2,10 +2,6 @@
 require_once __DIR__ . '/app/public/repertoireClients.php';
 require_once __DIR__ . '/app/config/database.php';
 $repo = new repertoireClients();
-// echo"<pre>";
-// print_r($repo1->afficheclient());
-// echo"</pre>";
-
 
 $client = $repo->chercheClient("aymanwauh@gmail");
 
